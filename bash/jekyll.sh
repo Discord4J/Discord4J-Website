@@ -10,5 +10,8 @@ cd ./hcz-jekyll-blog
 bundle install
 
 # Serves the page
-bundle exec jekyll serve
+# bundle exec jekyll serve
 
+# Clears the current content and rebuilds the site 
+rm -r ./_site
+jekyll build --destination ./_site
