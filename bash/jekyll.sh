@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 
 # Installs Jekyll
-gem install jekyll bundler
+gem install jekyll 
+
+# Installs bundler
+gem install bundler
 
 cd ..
 cd ./hcz-jekyll-blog
