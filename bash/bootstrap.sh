@@ -5,7 +5,7 @@ bash ./jekyll.sh
 
 # Move built page to be served
 cd ..
-rm -r /var/www/html
+rm -r /var/www/html/*
 mv ./hcz-jekyll-blog/_site/* /var/www/html
 
 # Restart nginx
