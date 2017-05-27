@@ -14,4 +14,4 @@ bundle install
 
 # Clears the current content and rebuilds the site 
 rm -r ./_site
-jekyll build --destination ./_site
+bundle exec jekyll build --destination ./_site
